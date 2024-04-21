@@ -19,21 +19,21 @@ function App() {
         />
         <MyCard
           nombre="Morita"
-          descripcion="Muy calmada y siempre alerta, buena guardiana, obediente y muy fiel. Me gusta tomar siesta despues de pasear"
+          descripcion="Muy calmada y siempre alerta, buena guardiana, obediente y muy fiel. Me gusta tomar siesta despues de pasear."
           image="https://images.pexels.com/photos/1078089/pexels-photo-1078089.jpeg?auto=compress&cs=tinysrgb&w=600"
           colorBadge="danger"
           textBadge="Soy Morita"
         />
         <MyCard
           nombre="Zeus"
-          descripcion="Muy juguetón y cariñoso, inteligente, obediente, le gusta la socialización con sus pares."
+          descripcion="Muy juguetón y cariñoso, inteligente, obediente, le gusta la socialización con sus pares. Buen compañero para salidas al parque."
           image="https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=600"
           colorBadge="warning"
           textBadge="Soy Zeus"
         />
         <MyCard
           nombre="Kratos"
-          descripcion="Tranquilo y muy noble, buscará vincularse con alguien de la familia para jugar. Fácil de entrenar."
+          descripcion="Tranquilo y muy noble, buscará vincularse con alguien de la familia para jugar. Muy buena disposición para aprender nuevos trucos."
           image="https://images.pexels.com/photos/46505/swiss-shepherd-dog-dog-pet-portrait-46505.jpeg?auto=compress&cs=tinysrgb&w=600"
           colorBadge="success"
           textBadge="Soy Kratos"
