@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./componentes/header/Header";
+import MyCard from "./componentes/myCard/MyCard";
+import Footer from "./componentes/footer/Footer";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="my-3">
+        <Header />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="d-flex">
+        <MyCard
+          nombre="Bartolo"
+          descripcion="Elegante, tranquilo, mantiene las distancias con los extraños; buen guardián y tolera el juego con los niños."
+          image="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=600"
+          colorBadge="primary"
+          textBadge="Soy Bartolo"
+        />
+        <MyCard
+          nombre="Morita"
+          descripcion="Muy calmada y siempre alerta, buena guardiana, obediente y muy fiel. Me gusta tomar siesta despues de pasear"
+          image="https://images.pexels.com/photos/1078089/pexels-photo-1078089.jpeg?auto=compress&cs=tinysrgb&w=600"
+          colorBadge="danger"
+          textBadge="Soy Morita"
+        />
+        <MyCard
+          nombre="Zeus"
+          descripcion="Muy juguetón y cariñoso, inteligente, obediente, le gusta la socialización con sus pares."
+          image="https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=600"
+          colorBadge="warning"
+          textBadge="Soy Zeus"
+        />
+        <MyCard
+          nombre="Kratos"
+          descripcion="Tranquilo y muy noble, buscará vincularse con alguien de la familia para jugar. Fácil de entrenar."
+          image="https://images.pexels.com/photos/46505/swiss-shepherd-dog-dog-pet-portrait-46505.jpeg?auto=compress&cs=tinysrgb&w=600"
+          colorBadge="success"
+          textBadge="Soy Kratos"
+        />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="my-3">
+        <Footer />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
