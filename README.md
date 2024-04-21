@@ -1,1 +1,2 @@
-https://github.com/Droopytex/desafio_react1
+1er Desafío React
+Maquetación de web usnado React para su implementación.
