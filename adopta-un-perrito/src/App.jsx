@@ -6,7 +6,7 @@ import Footer from "./componentes/footer/Footer";
 function App() {
   return (
     <>
-      <div className="my-3">
+      <div className="titulo">
         <Header />
       </div>
       <div className="d-flex">
@@ -29,7 +29,7 @@ function App() {
           descripcion="Muy juguetón y cariñoso, inteligente, obediente, le gusta la socialización con sus pares. Buen compañero para salidas al parque."
           image="https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=600"
           colorBadge="warning"
-          textBadge="Soy Zeus"
+          textBadge="Soy Zeus "
         />
         <MyCard
           nombre="Kratos"

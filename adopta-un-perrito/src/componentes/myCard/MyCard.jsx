@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 const MyCard = ({ image, nombre, colorBadge, descripcion, textBadge }) => {
   return (
     <>
-      <Card style={{ width: "18rem" }} className="mx-2 aling-center">
+      <Card style={{ width: "18rem" }} className="mx-2 justify-center bg-ligth">
         <Card.Img
           variant="top"
           src={image}
